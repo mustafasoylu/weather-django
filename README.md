@@ -40,6 +40,16 @@ PAGE_TEXTS = {
 
 Finally, the weather data is retrieved through [OpenWeather](https://openweathermap.org/) usign the below API key. **Please enter your API Key before running any test or the application itself.**
 
+```python
+OPENWEATHER_API_KEY = ""
+```
+
+In addition, Django Secret Key has to be set before running production version in weather_channel/settings.py
+
+```python
+SECRET_KEY = ""
+```
+
 ## Implementation
 
 Above project is implemented using django. Unit tests are written using unittest library. **Please enter your API Key before running any test or the application itself.**
