@@ -1,4 +1,4 @@
-# fruit store
+# wheather-django
 
 Coding challenge for CheMondis.
 
@@ -27,7 +27,7 @@ The results are cached for a configurable amount of time (5, 10, 60 minutes).
 PAGE_CACHE_MINUTES = 5
 ```
 
-The application supports English, Japanese and Turkish. A new language can be added too, but proper translation for showing the have to be added to PAGE_TEXTS variable.
+The application supports English, Japanese and Turkish. A new language can be added too, but proper translation for showing the front end texts have to be added to PAGE_TEXTS as a variable.
 
 ```python
 OPENWEATHER_LANGUAGES = ["tr", "en", "ja"]
